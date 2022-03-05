@@ -21,3 +21,9 @@ vagrant global-status
 
 # supprimer un vm
  vagrant destroy
+
+# telechargez un box en donnant la version
+  vagrant init ubuntu/trusty64 --box-version 'version'
+# Packager notre box 
+ vagrant package --output nginx.box  
+
